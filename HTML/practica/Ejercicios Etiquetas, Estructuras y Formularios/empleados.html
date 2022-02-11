@@ -29,19 +29,40 @@
     <!--Seccion de formulario-->
     <h2>Datos personales</h2>
     <form action="">
-        <div class="inputs"><label for="">Nombre </label><input type="text" placeholder="Nombre" pattern="[a-zA-Z1-9]{1,3}" required autofocus></div>
+        <div class="inputs"><label for="Nombre ">Nombre </label><input name="Nombre" type="text" id="Nombre" placeholder="Sofia" pattern="[a-zA-Z1-9]{1,30}" required autofocus></div>
 
-        <div class="inputs"><label for=""></label><input type="text"></div>
+        <div class="inputs"><label for="Edad ">Edad</label><input name="Edad" type="number" id="Edad" placeholder="ej 39" max="99" ></div>
 
-        <div class="inputs"><label for=""></label><input type="text"></div>
+        <div class="inputs"><label for="cdp">Codigo postal</label><input name="cdp" type="check" id="cdp" placeholder="ej 1267" max="9999"></div>
 
-        <div class="inputs"><label for=""></label><input type="text"></div>
+        <div class="inputs"><label for="Turno">Turno</label>
+            <input name="Turno" type="checkbox" id="Turno" value="Mañana">Mañana
+            <input name="Turno" type="checkbox" id="Turno" value="Tarde">Tarde
+            <input name="Turno" type="checkbox" id="Turno" value="Noche">Noche
+        </div>
 
-        <div class="inputs"><label for=""></label><input type="text"></div>
+        <div class="inputs"><label for="email">Email</label><input name="email" id="email" type="email" placeholder="usuario@gmail.com"></div>
 
-        <div class="inputs"><label for=""></label><input type="text"></div>
+        <div class="inputs">
+            <label for="merienda">Merienda</label>
+            <select name="selec" id="selec">
+                <optgroup label="Merienda caliente">
+                    <option value="">cafe</option>
+                    <option value="">chocolatada</option>
+                    <option value="">Té</option>
+                </optgroup>
 
-        <div class="inputs"><label for=""></label><input type="text"></div>
+                <optgroup label="Merienda fria">
+                    <option value="">Frapuchino</option>
+                    <option value="">Licuado</option>
+                    <option value="">Milshake</option>
+                </optgroup>
+            </select> <br>
+        </div>
+
+        <div class="inputs"><label for="coments">Comentario</label>
+            <textarea name="coments" id="coment" cols="80" rows="10"></textarea> <!--No recuerdo para que era  cols="80" rows="10"-->
+        </div>
 
         <div class="inputs"><label for=""></label><input type="text"></div>
 
