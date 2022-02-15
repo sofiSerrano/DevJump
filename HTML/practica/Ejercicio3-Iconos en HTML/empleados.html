@@ -12,7 +12,10 @@
 
 <body>
     <header>
-        <h1>Lovelace</h1>
+        <img src="favicon_io/apple-touch-icon.png" alt="">
+        <a name="Title">
+            <h1>Lovelace</h1>
+        </a>
         <p>Lovelace es una empresa minorista de especialidad en ropa casual y accesorios, principalmente dirigida a
             mujeres jóvenes. </p>
         <nav>
@@ -21,10 +24,15 @@
             <input type="submit" value="Buscar">
             <section>
                 <ul>
-                    <li><a href="index.html" target="blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i> Home</a></li>
-                    <li><a href="compras.html" target="blank" rel="noopener noreferrer"><i class="fa-solid fa-cart-shopping"></i> Compras</a></li>
-                <!--<li><a href="empleados.html" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-shop-lock"></i></i>Empleados</a></li> me sale erro si no busco desde el kit que me aparece en la pag, preguntar la razón porque no la recuerdo :,c-->
-                    <li><a href="registro.html" target="blank" rel="noopener noreferrer"><i class="fa-solid fa-user-group"></i> Registro</a></li>
+                    <li><a href="index.html" target="blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i>
+                            Home</a></li>
+                    <li><a href="compras.html" target="blank" rel="noopener noreferrer"><i
+                                class="fa-solid fa-cart-shopping"></i> Compras</a></li>
+                    <!--<li><a href="empleados.html" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-shop-lock"></i></i>Empleados</a></li> me sale erro si no busco desde el kit que me aparece en la pag, preguntar la razón porque no la recuerdo :,c-->
+                    <li><a href="registro.html" target="blank" rel="noopener noreferrer"><i
+                                class="fa-solid fa-user-group"></i> Registro</a></li>
+                    <li><a href="conocenos.html" target="blank" rel="noopener noreferrer"><i
+                                class="fa-regular fa-heart"></i> Conocenos</a></li>
                 </ul>
             </section>
         </nav>
@@ -32,87 +40,133 @@
 
     <!--Seccion de formulario-->
     <section>
-        <form action="">
-            <fieldset>
-                <legend>Datos personales</legend>
+        <article>
+            <form action="">
+                <fieldset>
+                    <legend>Datos personales</legend>
 
-                <div class="inputs"><label for="Edad ">Edad</label><input name="Edad" type="number" id="Edad"
-                        placeholder="ej 39" max="99" required></div>
+                    <div class="inputs"><label for="Edad ">Edad</label><input name="Edad" type="number" id="Edad"
+                            placeholder="ej 39" max="99" required></div>
                     <br>
-                <div class="inputs"><label for="Nombre ">Nombre y apellido</label><input name="Nombre" type="text"
-                        id="Nombre" placeholder="Sofia" pattern="[a-zA-Z1-9\s]{1,30}" required autofocus></div>
-                <!--No acepta la tilde-->
+                    <div class="inputs"><label for="Nombre ">Nombre y apellido</label><input name="Nombre" type="text"
+                            id="Nombre" placeholder="Sofia" pattern="[a-zA-Z1-9\s]{1,30}" required autofocus></div>
+                    <!--No acepta la tilde-->
+                    <br>
+                    <div class="inputs"><label for="cdp">Codigo postal</label><input name="cdp" type="number" id="cdp"
+                            placeholder="ej 1267" max="9999" required></div>
+                    <!--preguntar como hacer que solo acepte dos letras  y 4 nums por ejemplo-->
+                    <br>
+                    <div class="inputs"><label for="Turno">Turno</label>
+                        <input name="Turno" type="checkbox" id="Turno" value="Mañana">Mañana
+                        <input name="Turno" type="checkbox" id="Turno" value="Tarde">Tarde
+                        <input name="Turno" type="checkbox" id="Turno" value="Noche">Noche
+                    </div>
+                    <br>
+                    <div class="inputs"><label for="email">Email</label><input name="email" id="email" type="email"
+                            placeholder="usuario@gmail.com"></div>
+                    <br>
+                    <div class="inputs">
+                        <label for="merienda">Merienda</label>
+                        <select name="selec" id="selec">
+                            <optgroup label="Merienda caliente">
+                                <option value="">cafe</option>
+                                <option value="">chocolatada</option>
+                                <option value="">Té</option>
+                            </optgroup>
+
+                            <optgroup label="Merienda fria">
+                                <option value="">Frapuchino</option>
+                                <option value="">Licuado</option>
+                                <option value="">Milshake</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="inputs"><label for="coments">Comentario</label>
+                        <textarea name="coments" id="coment" cols="80" rows="10"></textarea>
+                        <!--No recuerdo para que era  cols="80" rows="10"-->
+                    </div>
+                    <br>
+                    <div class="inputs"><label for="semana">Semana: </label><input id="semana" type="week"
+                            name="semana">
+                    </div>
+
+                    <div class="inputs"><label for="hIngreso">ingreso: </label><input name="ingreso" id="ingreso"
+                            type="time">
+                    </div>
+
+                    <div class="inputs"><label for="hijos">Cantidad de Hijos </label><input name="hijos" id="hijos"
+                            type="number"></div>
+
+                    <div class="inputs"><label for="mIngreso">Mes de Ingreso1:</label>Mes de ingreso: <input
+                            name="mIngreso" id="mIngreso" type="month"></div>
+
+                    <div class="inputs"><label for="Color">Color Favorito :</label><input name="color" id="color"
+                            type="color">
+                    </div>
+
+                    <div class="inputs">Subir foto fachera para perfil: <label for="perfil"></label><input name="perfil"
+                            id="perfil" type="file"></div>
+                </fieldset>
                 <br>
-                <div class="inputs"><label for="cdp">Codigo postal</label><input name="cdp" type="number" id="cdp"
-                        placeholder="ej 1267" max="9999" required></div>
-                <!--preguntar como hacer que solo acepte dos letras  y 4 nums por ejemplo-->
-                <br>
-                <div class="inputs"><label for="Turno">Turno</label>
-                    <input name="Turno" type="checkbox" id="Turno" value="Mañana">Mañana
-                    <input name="Turno" type="checkbox" id="Turno" value="Tarde">Tarde
-                    <input name="Turno" type="checkbox" id="Turno" value="Noche">Noche
-                </div>
-                <br>
-                <div class="inputs"><label for="email">Email</label><input name="email" id="email" type="email"
-                        placeholder="usuario@gmail.com"></div>
-                        <br>
                 <div class="inputs">
-                    <label for="merienda">Merienda</label>
-                    <select name="selec" id="selec">
-                        <optgroup label="Merienda caliente">
-                            <option value="">cafe</option>
-                            <option value="">chocolatada</option>
-                            <option value="">Té</option>
-                        </optgroup>
-
-                        <optgroup label="Merienda fria">
-                            <option value="">Frapuchino</option>
-                            <option value="">Licuado</option>
-                            <option value="">Milshake</option>
-                        </optgroup>
-                    </select>
+                    <button id="enviar" name="enviar" type="submit">Enviar</button>
                 </div>
-                <br>
-                <div class="inputs"><label for="coments">Comentario</label>
-                    <textarea name="coments" id="coment" cols="80" rows="10"></textarea>
-                    <!--No recuerdo para que era  cols="80" rows="10"-->
-                </div>
-                <br>
-                <div class="inputs"><label for="semana">Semana: </label><input id="semana" type="week" name="semana">
-                </div>
-
-                <div class="inputs"><label for="hIngreso">ingreso: </label><input name="ingreso" id="ingreso"
-                        type="time">
-                </div>
-
-                <div class="inputs"><label for="hijos">Cantidad de Hijos </label><input name="hijos" id="hijos"
-                        type="number"></div>
-
-                <div class="inputs"><label for="mIngreso">Mes de Ingreso1:</label>Mes de ingreso: <input name="mIngreso"
-                        id="mIngreso" type="month"></div>
-
-                <div class="inputs"><label for="Color">Color Favorito :</label><input name="color" id="color"
-                        type="color">
-                </div>
-
-                <div class="inputs">Subir foto fachera para perfil: <label for="perfil"></label><input name="perfil"
-                        id="perfil" type="file"></div>
+            </form>
+        </article>
+        <br>
+        <br>
+        <article>
+            <fieldset>
+                <legend>Datos</legend>
+                <table>
+                    <caption> Tabla de empleados</caption>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr>
+                    <tr>
+                        <th>Norma</th>
+                        <th>Elizondo Acevedo</th>
+                        <th>27</th>
+                    </tr>
+                    <tr>
+                        <th>Juan</th>
+                        <th>Reyes Guerrero</th>
+                        <th>30</th>
+                    </tr>
+                    <tr>
+                        <th>Jimena</th>
+                        <th>Elizondo Acevedo</th>
+                        <th>23</th>
+                    </tr>
+                    <tr>
+                        <th>Ruth</th>
+                        <th>Uribe</th>
+                        <th>23</th>
+                    </tr>
+                </table>
             </fieldset>
-            <div class="inputs">
-                <button id="enviar" name="enviar" type="submit">Enviar</button>
-            </div>
-        </form>
+        </article>
     </section>
 
+    <section>
+        <div class="volv_arr">
+            <i class="fa-solid fa-arrow-turn-up"></i><a href="#Title">Volver arriba</a>
+        </div>
+    </section>
 
     <footer>
         <h1>Redes sociales de Arbusta</h1>
         <ul>
-            <li><a href="https://www.facebook.com/arbustait/">facebook</a></li>
-            <li><a href="https://twitter.com/arbustaIT">Twitter</a></li>
-            <li><a href="https://www.youtube.com/arbustait">youtube</a></li>
-            <li><a href="https://www.instagram.com/arbustait/">instagram</a></li>
-            <li><a href="https://www.linkedin.com/company/arbusta/">Linkedin</a></li>
+            <li><i class="fa-brands fa-facebook-square"></i><a href="https://www.facebook.com/arbustait/">facebook</a>
+            </li>
+            <li><i class="fa-brands fa-twitter-square"></i><a href="https://twitter.com/arbustaIT">Twitter</a></li>
+            <li><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/arbustait">youtube</a></li>
+            <li><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/arbustait/">instagram</a></li>
+            <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/company/arbusta/">Linkedin</a>
+            </li>
         </ul>
 
     </footer>
