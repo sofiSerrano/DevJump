@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fc4db54be8.js" crossorigin="anonymous"></script>
     <link rel="icon" href="favicon_io/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Empleados</title>
 </head>
 
@@ -27,7 +28,10 @@
                     <li><a href="index.html" target="blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i>
                             Home</a></li>
                     <li><a href="compras.html" target="blank" rel="noopener noreferrer"><i
-                                class="fa-solid fa-cart-shopping"></i> Compras</a></li>
+                                class="fa-solid fa-cart-shopping"></i>
+                            Compras</a></li>
+                    <li><a href="empleados.html" target="blank" rel="noopener noreferrer"><i
+                                class="fa-solid fa-person-booth"></i> Empleados</a></li>
                     <!--<li><a href="empleados.html" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-shop-lock"></i></i>Empleados</a></li> me sale erro si no busco desde el kit que me aparece en la pag, preguntar la razón porque no la recuerdo :,c-->
                     <li><a href="registro.html" target="blank" rel="noopener noreferrer"><i
                                 class="fa-solid fa-user-group"></i> Registro</a></li>
@@ -54,16 +58,16 @@
                     <br>
                     <div class="inputs"><label for="cdp">Codigo postal</label><input name="cdp" type="number" id="cdp"
                             placeholder="ej 1267" max="9999" required></div>
-                    <!--preguntar como hacer que solo acepte dos letras  y 4 nums por ejemplo-->
+                    <!--preguntar como hacer que solo acepte dos letras  y 4 nums por ejemplo, aunque eso lo vemos en javascript IDK (•ิ_•ิ)? -->
                     <br>
-                    <div class="inputs"><label for="Turno">Turno</label>
-                        <input name="Turno" type="checkbox" id="Turno" value="Mañana">Mañana
-                        <input name="Turno" type="checkbox" id="Turno" value="Tarde">Tarde
-                        <input name="Turno" type="checkbox" id="Turno" value="Noche">Noche
+                    <div class="inputs"><label for="Turno"><b>Turno</b> </label>
+                        <input name="Turno" type="radio" id="Turno" value="Mañana">Mañana
+                        <input name="Turno" type="radio" id="Turno" value="Tarde">Tarde
+                        <input name="Turno" type="radio" id="Turno" value="Noche">Noche
                     </div>
                     <br>
                     <div class="inputs"><label for="email">Email</label><input name="email" id="email" type="email"
-                            placeholder="usuario@gmail.com"></div>
+                            placeholder="usuario@gmail.com" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"></div>
                     <br>
                     <div class="inputs">
                         <label for="merienda">Merienda</label>
@@ -129,35 +133,34 @@
                     <tr>
                         <th>Norma</th>
                         <th>Elizondo Acevedo</th>
-                        <th>27</th>
+                        <th>Diseñador/a</th>
                     </tr>
                     <tr>
                         <th>Juan</th>
                         <th>Reyes Guerrero</th>
-                        <th>30</th>
+                        <th>Contador/a</th>
                     </tr>
                     <tr>
                         <th>Jimena</th>
                         <th>Elizondo Acevedo</th>
-                        <th>23</th>
+                        <th>ux</th>
                     </tr>
                     <tr>
                         <th>Ruth</th>
                         <th>Uribe</th>
-                        <th>23</th>
+                        <th>Chef</th>
                     </tr>
                 </table>
             </fieldset>
         </article>
     </section>
 
-    <section>
-        <div class="volv_arr">
-            <i class="fa-solid fa-arrow-turn-up"></i><a href="#Title">Volver arriba</a>
-        </div>
-    </section>
 
     <footer>
+        <!--boton para volver arriba-->
+        <div class="volv_arr">
+            <a href="#Title"><i class="fa-solid fa-arrow-turn-up"></i></a>
+        </div>
         <h1>Redes sociales de Arbusta</h1>
         <ul>
             <li><i class="fa-brands fa-facebook-square"></i><a href="https://www.facebook.com/arbustait/">facebook</a>
