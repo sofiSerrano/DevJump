@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fc4db54be8.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="favicon_io/favicon.ico">
+    <link rel="icon" href="/favicon_io/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Empleados</title>
 </head>
@@ -26,8 +26,9 @@
             <input type="submit" value="Buscar">
             <section>
                 <ul style="list-style: none;">
-                    <li><a href="index.html" target="" rel="noopener noreferrer"><i class="fa-solid fa-house"></i>
-                            Home</a></li>
+                    <li><a href="../index.html" rel="noopener noreferrer"><i
+                        class="fa-solid fa-house"></i>
+                    Home</a></li>
                     <li><a href="compras.html" target="" rel="noopener noreferrer"><i
                                 class="fa-solid fa-cart-shopping"></i>
                             Compras</a></li>
@@ -50,77 +51,77 @@
                 <fieldset>
                     <legend>Datos personales</legend>
 
-                    <div class="inputs"><label for="Edad ">Edad</label><input name="Edad" type="number" id="Edad"
+                    <div class="inputs"><label for="Edad ">Edad</label><input name="Edad" aria-label="Edad" type="number" id="Edad"
                             placeholder="ej 39" max="99" required></div>
-                    <br>
-                    <div class="inputs"><label for="Nombre ">Nombre y apellido</label><input name="Nombre" type="text"
+                    
+                    <div class="inputs"><label for="Nombre ">Nombre y apellido</label><input name="Nombre" aria-label="Nombre y apellido" type="text"
                             id="Nombre" placeholder="Sofia" pattern="[a-zA-Z1-9\s]{1,30}" required autofocus></div>
                     <!--No acepta la tilde-->
-                    <br>
-                    <div class="inputs"><label for="cdp">Codigo postal</label><input name="cdp" type="number" id="cdp"
+                    
+                    <div class="inputs"><label for="cdp">Codigo postal</label><input name="cdp" type="number" id="cdp" aria-label="Codigo postal"
                             placeholder="ej 1267" max="9999" required></div>
                     <!--preguntar como hacer que solo acepte dos letras  y 4 nums por ejemplo, aunque eso lo vemos en javascript IDK (•ิ_•ิ)? -->
-                    <br>
+                    
                     <div class="inputs"><label for="Turno"><b>Turno</b> </label>
-                        <input name="Turno" type="radio" id="Turno" value="Mañana">Mañana
-                        <input name="Turno" type="radio" id="Turno" value="Tarde">Tarde
-                        <input name="Turno" type="radio" id="Turno" value="Noche">Noche
+                        <input name="Turno" aria-label="Turno mañana" type="radio" id="Turno" value="Mañana">Mañana
+                        <input name="Turno" aria-label="Turno Tarde" type="radio" id="Turno" value="Tarde">Tarde
+                        <input name="Turno" aria-label="Turno Noche" type="radio" id="Turno" value="Noche">Noche
                     </div>
-                    <br>
-                    <div class="inputs"><label for="email">Email</label><input name="email" id="email" type="email"
+                    
+                    <div class="inputs"><label for="email">Email</label><input name="email" id="email" type="email" aria-label="Email"
                             placeholder="usuario@gmail.com" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"></div>
-                    <br>
+                    
                     <div class="inputs">
                         <label for="merienda">Merienda</label>
                         <select name="selec" id="selec">
                             <optgroup label="Merienda caliente">
-                                <option value="">cafe</option>
-                                <option value="">chocolatada</option>
-                                <option value="">Té</option>
+                                <option value="" aria-label="Café">cafe</option>
+                                <option value=""  aria-label="Chocolatada">chocolatada</option>
+                                <option value=""  aria-label="Té" >Té</option>
                             </optgroup>
 
                             <optgroup label="Merienda fria">
-                                <option value="">Frapuchino</option>
-                                <option value="">Licuado</option>
-                                <option value="">Milshake</option>
+                                <option value="" aria-label="Frapuchino">Frapuchino</option>
+                                <option value="" aria-label="Licuado">Licuado</option>
+                                <option value="" aria-label="Milshake">Milshake</option>
                             </optgroup>
                         </select>
                     </div>
-                    <br>
+                    
                     <div class="inputs"><label for="coments">Comentario</label>
-                        <textarea name="coments" id="coment" cols="80" rows="10"></textarea>
+                        <textarea name="coments"  aria-label="Deja tu comentario" id="coment" cols="80" rows="10"></textarea>
                         <!--No recuerdo para que era  cols="80" rows="10"-->
                     </div>
-                    <br>
-                    <div class="inputs"><label for="semana">Semana: </label><input id="semana" type="week"
+                    
+                    <div class="inputs"><label for="semana">Semana: </label><input id="semana" aria-label="Semana" type="week"
                             name="semana">
                     </div>
 
-                    <div class="inputs"><label for="hIngreso">ingreso: </label><input name="ingreso" id="ingreso"
+                    <div class="inputs"><label for="hIngreso">ingreso: </label><input name="ingreso"  aria-label="Ingreso" id="ingreso"
                             type="time">
                     </div>
 
-                    <div class="inputs"><label for="hijos">Cantidad de Hijos </label><input name="hijos" id="hijos"
+                    <div class="inputs"><label for="hijos">Cantidad de Hijos </label><input name="hijos" aria-label="Cantidad de hijos" id="hijos"
                             type="number"></div>
 
-                    <div class="inputs"><label for="mIngreso">Mes de Ingreso1:</label>Mes de ingreso: <input
+                    <div class="inputs"><label for="mIngreso">Mes de Ingreso1:</label>Mes de ingreso: <input  aria-label="mes de ingreso"
                             name="mIngreso" id="mIngreso" type="month"></div>
 
-                    <div class="inputs"><label for="Color">Color Favorito :</label><input name="color" id="color"
+                    <div class="inputs"><label for="Color">Color Favorito :</label><input name="color" id="color"  aria-label="Color favorito"
                             type="color">
                     </div>
 
-                    <div class="inputs">Subir foto fachera para perfil: <label for="perfil"></label><input name="perfil"
+                    <div class="inputs"><label for="perfil">Subir foto fachera para perfil: </label><input name="perfil"  aria-label="Café"
                             id="perfil" type="file"></div>
                 </fieldset>
-                <br>
+                
                 <div class="inputs">
-                    <button id="enviar" name="enviar" type="submit">Enviar</button>
+                    <button  aria-label="Café" id="enviar" name="enviar" type="submit">Enviar</button>
                 </div>
             </form>
         </article>
-        <br>
-        <br>
+        
+        
         <article>
             <fieldset>
                 <legend>Datos</legend>
@@ -132,28 +133,29 @@
                         <th>Edad</th>
                     </tr>
                     <tr>
-                        <th>Norma</th>
-                        <th>Elizondo Acevedo</th>
-                        <th>Diseñador/a</th>
+                        <td>Norma</td>
+                        <td>Elizondo Acevedo</td>
+                        <td>Diseñador/a</td>
                     </tr>
                     <tr>
-                        <th>Juan</th>
-                        <th>Reyes Guerrero</th>
-                        <th>Contador/a</th>
+                        <td>Juan</td>
+                        <td>Reyes Guerrero</td>
+                        <td>Contador/a</td>
                     </tr>
                     <tr>
-                        <th>Jimena</th>
-                        <th>Elizondo Acevedo</th>
-                        <th>ux</th>
+                        <td>Jimena</td>
+                        <td>Elizondo Acevedo</td>
+                        <td>ux</td>
                     </tr>
                     <tr>
-                        <th>Ruth</th>
-                        <th>Uribe</th>
-                        <th>Chef</th>
+                        <td>Ruthd</td>
+                        <td>Uribe</td>
+                        <td>Chef</td>
                     </tr>
                 </table>
             </fieldset>
         </article>
+
     </section>
 </main>
 
