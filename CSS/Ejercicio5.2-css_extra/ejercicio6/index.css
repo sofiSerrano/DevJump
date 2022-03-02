@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+
+}
+
+h3{
+    font-size: 20px;
+}
+
+article a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+article .time,.fecha{
+    font-size: 10px;
+    color: rgb(126, 125, 125);
+}
+
+.emoji span{
+    background-color: rgb(201, 192, 192);
+    word-spacing: 2px;
+}

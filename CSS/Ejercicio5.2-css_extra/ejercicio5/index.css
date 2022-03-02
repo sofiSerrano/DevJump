@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body{
+    font-family: 'Architects Daughter', cursive;
+}
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.can{
+    background-color: red;
+    color: beige;
+    width: 10%;
+}
+
+.hac{
+    background-color: orange;
+    width: 10%;
+}
+
+.pen{
+    background-color: blue;
+    color: white;
+    width: 10%;
+}
+
+.ech{
+    background-color: green;
+    color: beige;
+    width: 10%;
+}
+
+.fecha{
+    font-size: 10px;
+    color: grey;
+    width: 10%;
+}
+
