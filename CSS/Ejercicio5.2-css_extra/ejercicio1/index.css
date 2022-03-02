@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+section article p{
+    color: gray;
+    font-family: "Varela Round", sans-serif;
+}
+
+article p {
+    text-decoration: none;
+    color: aqua;
+}
+
+.p2 span{
+    font-style: italic;
+}
+
+.p3 span{
+    font-weight: 700;
+}
+
+.p4{
+    font-style: italic;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.p5 .negr{
+    font-weight: 700;
+}
+.p5 .ital{
+    font-style: italic;
+}
+
+
+

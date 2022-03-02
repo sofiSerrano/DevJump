@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&family=Varela+Round&display=swap");
+body {
+  font-family: "Varela Round", sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/*paleta sunet ocean */
+.Sunset .c1{
+    background-color: rgb(253, 135, 194);
+}
+.Sunset .c2{
+    background-color: rgb(255, 105, 203);
+}
+.Sunset .c3{
+
+    background-color: rgb(234, 70, 255);
+}
+.Sunset .c4{
+    background-color: rgb(173, 0, 250);
+    color: #B7D3E0;
+}
+.Sunset .c5{
+    background-color: rgb(95, 0, 224);
+    color: #A4C3A2;
+}
+/*Paleta invierno*/
+.invierno .c1{
+    background-color: hsl(199, 39%, 79%);
+    color: black;
+}
+.invierno .c2{
+    background-color: hsl(192, 70%, 88%);
+    color: black;
+}
+.invierno .c3{
+    background-color: hsl(214, 40%, 62%);
+}
+.invierno .c4{
+
+    background-color: hsl(223,28%,48%);
+    color: #B0D4B8;
+}
+.invierno .c5{
+    background-color: hsl(203, 33%, 62%);
+}
+/*paleta bosque*/
+.bosque .c1{
+    background-color: #D7F9FA;
+}
+.bosque .c2{
+    background-color: #EAE7D6;
+}
+.bosque .c3{
+    background-color:#B0D4B8 ;
+}
+.bosque .c4{
+    background-color: #A4C3A2;
+}
+.bosque .c5{
+    background-color: #5D7B6F;
+    color: #CCEDF6;
+}
