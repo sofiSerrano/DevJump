@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+.container-notification{
+    background-color: rgb(243, 240, 235);
+    width: 30%;
+    height: 400px;
+    margin: 10px 10px 10px 10px;
+}
+
+.contenido{
+    font-family: 'Nunito', sans-serif;
+    width: 90%;
+    height: 90%;
+    padding: 35px;
+    padding-left: 30px;
+    
+
+}
+
+.campana-emoji{
+    font-size: 30px;
+}
+
+.boton{
+    background-color: rgb(71, 132, 202);
+    width: 70px;
+    height: 30px;
+    box-shadow:  0px 10px 10px -6px black;
+}
+
+.boton p{
+    text-align: center;
+    font-weight: 800;
+    padding: 3px;
+    color: beige;
+}
