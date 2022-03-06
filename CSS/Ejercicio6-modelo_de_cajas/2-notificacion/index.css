@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body{
+    background-color:  #fc97ce;
+}
 .container-notification{
-    background-color: rgb(243, 240, 235);
+    background-color: rgb(255, 255, 255);
     width: 30%;
     height: 318px;
     margin-left: 35%;
@@ -35,3 +38,19 @@ a{
     padding: 3px;
     color: beige;
 }
+.img-sk{
+    margin-left: 80%;
+    width: 70px;
+    border-radius: 30px;
+    height: 39px;
+    background-color: white;
+    
+}
+.img-sk img{
+    text-align: center;
+    width: 50px;
+    padding-left: 9px;
+    padding-top: 6px;
+}
+
+
