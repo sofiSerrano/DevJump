@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  text-align: center;
+}
+/* Se queda cuando cierro */
+.container1,
+.container2,
+.container3{
+  width: 90%;
+  height: 25%;
+  margin: 176px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  text-align: center;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.one {
+  background-color: #478ba2;
+}
+
+.two {
+  background-color: #de5b6d;
+}
+
+.three {
+  background-color: #f2a490;
+}
+
+.four {
+  background-color: #e9765b;
+}
+
+.five {
+  background-color: #B9D4DB;
+}
+
+.six {
+  background-color: #FF9F97;
+}
+
+/*este es del ejercicio1*/
+.container1 .one {
+  flex-basis: 25%;
+}
+
+.container1 .two {
+  flex-basis: 25%;
+}
+
+.container1 .three {
+  flex-basis: 25%;
+}
+
+.container1 .four {
+  flex-basis: 25%;
+}
+
+.container1 .five {
+  flex-grow: 1;
+}
+/*preguntar para que no este encimado*/
+.container2 .one {
+  flex-basis: 25%;
+}
+
+.container2 .two {
+  flex-basis: 25%;
+}
+
+.container2 .three {
+  flex-basis: 25%;
+}
+
+.container2 .four {
+  flex-basis: 25%;
+}
+
+.container2 .five {
+  flex-basis: 25%;
+}
+
+.container2 .six {
+  flex-grow: 1;
+}
+
+/*Ejercicio 3*/
+.container3 .one {
+  flex-basis: 25%;
+}
+
+.container3 .two {
+  flex-basis: 25%;
+}
+
+.container3 .three {
+  flex-basis: 25%;
+}
+
+.container3 .four {
+  flex-basis: 25%;
+}
+
+.container3 .five {
+  flex-grow: 1;
+}
+
+.container3 .six {
+  flex-grow: 1;
+}

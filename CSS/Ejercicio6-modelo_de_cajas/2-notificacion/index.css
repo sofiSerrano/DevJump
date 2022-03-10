@@ -12,12 +12,18 @@ body{
 a{
     text-decoration: none;
 }
+
+.aviso{
+    margin-left: 3px;
+    margin-right: 8px;
+}
+
 .contenido{
     font-family: 'Nunito', sans-serif;
     width: 90%;
     height: 90%;
     padding: 35px;
-    padding-left: 30px;
+    
 
 }
 
@@ -39,7 +45,7 @@ a{
     color: beige;
 }
 .img-sk{
-    margin-left: 80%;
+    margin-left: 90%;
     width: 70px;
     border-radius: 30px;
     height: 39px;
@@ -54,3 +60,4 @@ a{
 }
 
 
+/*  */

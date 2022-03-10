@@ -11,11 +11,10 @@ p{
 .container3,
 .container4 ,.container5{
   border: 1px solid;
-  margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
   height: 150px;
-    width: 1000px;
+
 }
 
 .box {
@@ -27,19 +26,20 @@ p{
 }
 
 .one {
-  background-color: darkgoldenrod;
+  background-color: #478BA2;
 }
 
 .two {
-  background-color: darkcyan;
+  background-color: #DE5B6D;
 }
 
 .three {
-  background-color: darkolivegreen;
+ 
+  background-color: #F2A490;
 }
 
 .four {
-    background-color: rgb(157, 167, 31);
+  background-color: #E9765B;
   }
 /*este es del ejercicio1*/
 .container1 .one {
@@ -87,7 +87,7 @@ p{
 
 /*ejercicio 4*/
 .container4 .one {
-    flex-grow: 3;
+    flex-grow: 4;
   }
   
   .container4 .two {

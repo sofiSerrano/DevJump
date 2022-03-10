@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
     background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
 }
 /*.paises article{
     margin: 0 auto; no sé porque no funciona aca 
 }*/
 
-.paises p{
+.paises p,h1{
     text-align: center;
 }
 article{
@@ -68,7 +70,7 @@ article{
     background-color: rgb(255, 38, 0);
 }
 Lo intente así primero pero el tema es que me quedaba en el medio espacio vacio que intenté arreglar pero no sabía como
-*/
+
 
 /*bandera Noruega*/
 .paises .Francia .bandera{
@@ -118,11 +120,38 @@ background: linear-gradient(to right, #1900ff 33%, #fff 33%, #fff 66%, #f51c1c 6
 .paises .Grecia .bandera{
     background-color: #75AADB;
 }
+.paises .Grecia .bandera .cruz{
+    position: absolute;
+    background-color: #75AADB;
+    width: 96px;
+    height: 96px;
+}
 .paises .Grecia .bandera .lineas{
     background-color: white;
+    margin-top: 20px;
     width: 300px;
-    height: 201px;
+    height: 24px;
 }
 
-/*bandera Alemania*/
-.paises .Alemania .bandera{}
+.paises .Grecia .bandera .lin-h{
+    position: absolute;
+    background-color: white;
+    margin-top: 43px;
+    width: 96px;
+    height: 21px;
+}
+
+.paises .Grecia .bandera .lin-v{
+    background-color: white;
+    position: absolute;
+    margin-left: 37px;
+    width: 21px;
+    height: 108px;
+}
+
+
+/*bandera Italia*/
+.paises .Italia .bandera{
+    background: linear-gradient(to right, #238641 33%, #fff 33%, #fff 66%, #f51c1c 66%);
+
+}
