@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+p{
+    text-align: center;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 ,.container5{
+  border: 1px solid;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+    width: 1000px;
+}
+
+.box {
+  text-align: center;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.one {
+  background-color: darkgoldenrod;
+}
+
+.two {
+  background-color: darkcyan;
+}
+
+.three {
+  background-color: darkolivegreen;
+}
+
+.four {
+    background-color: rgb(157, 167, 31);
+  }
+/*este es del ejercicio1*/
+.container1 .one {
+  width: 250px;
+}
+
+.container1 .two {
+  flex-grow: 2;
+}
+
+.container1 .three {
+  width: 250px;
+}
+
+/*ejercicio 2*/
+.container2 .one {
+    width: 200px;
+  }
+  
+  .container2 .two {
+    flex-grow: 2;
+  }
+  
+  .container2 .three {
+    flex-grow: 2;
+  }
+
+  .container2 .four {
+    width: 200px;
+}
+
+/*ejercicio 3*/
+.container3 .one {
+    flex-grow: 3;
+  }
+  
+  .container3 .two {
+    flex-grow: 3;
+  }
+  
+  .container3 .three {
+    flex-grow: 3;
+  }
+
+
+/*ejercicio 4*/
+.container4 .one {
+    flex-grow: 3;
+  }
+  
+  .container4 .two {
+    flex-grow: 1;
+  }
+  
+  .container4 .three {
+    flex-grow: 1;
+  }
+
+  /*ejercicio 5*/
+  /* No sé si estara bien de está forma */
+.container5 .one {
+    flex-grow: 0.2;
+  }
+  
+  .container5 .two {
+    flex-grow: 0.2;
+  }
+  
+  .container5 .three {
+    flex-grow: 0.6;
+  }
