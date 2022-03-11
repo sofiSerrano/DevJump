@@ -1,0 +1,25 @@
+body{
+    display: flex;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+article{
+    width: 60%;
+    height: 98%;
+    border: 1px solid black;
+    display: flex;    
+    flex-wrap: nowrap;
+}
+
+img{
+    width: 340px;
+    height: 544px;
+    padding: 20px;
+}
+
+.contenedor-info{
+    padding: 10px;
+}
