@@ -10,7 +10,6 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-content: stretch;
   flex-wrap: wrap;
 }
 
@@ -19,18 +18,35 @@ body {
   flex-grow: 2;
   flex-wrap: wrap;
 }
+/**  Parte del menu */
 nav {
   background-color: #3fa796;
   width: 170px;
+  display: flex;
 }
+/* Si  */
+nav ul{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  align-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/** Cotenerdor principal */
 main {
   /* flex-grow: 0.6; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px 10px 10px 10px;
   flex: 2 1 auto;
   /* Nosé como representarlo si en % o de otra forma preguntar a profe o compañera */
   background-color: #8267be;
   width: 100px;
 }
+
 aside {
     flex: 1 1 auto;
   background-color: #502064;

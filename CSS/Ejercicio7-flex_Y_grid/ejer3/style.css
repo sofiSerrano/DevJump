@@ -1,25 +1,71 @@
-body{
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Merriweather+Sans:wght@300&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  background-color: #fdeec7;
+  width: 882px;
+  height: 601px;
+  border: 1px solid black;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: "Merriweather Sans", sans-serif;
+}
+h1 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 40px;
+  color: #263f73;
+  margin-bottom: 2px;
+}
+img {
+  width: 340px;
+  height: 544px;
+  padding: 20px;
+}
+
+.contenedor-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 100%;
+
+  flex-grow: 1;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sipnosis,
+.anio {
     display: flex;
+    line-height : 25px;
+    align-items: stretch;
+  margin-right: 20px;
+}
+.etiquetas {
+  display: flex;
+  justify-content: space-around;
 }
 
-section{
-    display: flex;
-    justify-content: center;
+.genero {
+  height: 48px;
+  width: 97px;
+  padding: 1px;
+  background-color: #263f73;
+  border-radius: 30px;
 }
-article{
-    width: 60%;
-    height: 98%;
-    border: 1px solid black;
-    display: flex;    
-    flex-wrap: nowrap;
+.genero p {
+  text-align: center;
+  color: #adccd9;
 }
-
-img{
-    width: 340px;
-    height: 544px;
-    padding: 20px;
-}
-
-.contenedor-info{
-    padding: 10px;
-}
+/**/
