@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+  /* */
+}
+
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+nav {
+  background-color: #3fa796;
+  width: 170px;
+}
+main {
+  /* flex-grow: 0.6; */
+  margin: 10px 10px 10px 10px;
+  flex: 2 1 auto;
+  /* Nosé como representarlo si en % o de otra forma preguntar a profe o compañera */
+  background-color: #8267be;
+  width: 100px;
+}
+aside {
+    flex: 1 1 auto;
+  background-color: #502064;
+  padding: 10px;
+}
+footer {
+  background-color: #ffbd35;
+  height: 300px;
+}
