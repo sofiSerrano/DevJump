@@ -35,6 +35,11 @@ nav ul{
 }
 
 /** Cotenerdor principal */
+.content_principal{
+  display: flex;
+  flex-grow: 1;
+  margin: 10px 10px 10px 10px;
+}
 main {
   /* flex-grow: 0.6; */
   display: flex;
@@ -56,6 +61,8 @@ aside {
   background-color: #502064;
   margin: 10px 10px 10px 10px;
 }
+
+
 footer {
   display: flex;
   justify-content: center;
