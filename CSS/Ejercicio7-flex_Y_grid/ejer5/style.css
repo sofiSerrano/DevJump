@@ -1,4 +1,14 @@
+body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* align-content: stretch; */
+    /* flex-wrap: nowrap; */
+    flex-direction: column-reverse;
+}
+
 .container {
+    display: flex;
     position: absolute;
     width: 630px;
     height: 450px;
@@ -10,7 +20,8 @@
 .box {
     width: 150px;
     height: 150px;
-    display: inline-block;  
+    display: inline-block;
+    align-items: center; 
     text-align: center;
     line-height: 150px;
     color: white;

@@ -48,11 +48,18 @@ main {
 }
 
 aside {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     flex: 1 1 auto;
   background-color: #502064;
-  padding: 10px;
+  margin: 10px 10px 10px 10px;
 }
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #ffbd35;
   height: 300px;
 }
